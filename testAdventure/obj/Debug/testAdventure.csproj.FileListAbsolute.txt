@@ -1,0 +1,7 @@
+D:\Projects\GameDev\testAdventure-v4\testAdventure-v4\testAdventure\bin\Debug\testAdventure.exe.config
+D:\Projects\GameDev\testAdventure-v4\testAdventure-v4\testAdventure\bin\Debug\testAdventure.exe
+D:\Projects\GameDev\testAdventure-v4\testAdventure-v4\testAdventure\bin\Debug\testAdventure.pdb
+D:\Projects\GameDev\testAdventure-v4\testAdventure-v4\testAdventure\obj\Debug\testAdventure.csprojAssemblyReference.cache
+D:\Projects\GameDev\testAdventure-v4\testAdventure-v4\testAdventure\obj\Debug\testAdventure.csproj.CoreCompileInputs.cache
+D:\Projects\GameDev\testAdventure-v4\testAdventure-v4\testAdventure\obj\Debug\testAdventure.exe
+D:\Projects\GameDev\testAdventure-v4\testAdventure-v4\testAdventure\obj\Debug\testAdventure.pdb
