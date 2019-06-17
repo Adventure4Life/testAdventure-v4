@@ -12,8 +12,6 @@ namespace testAdventure
         {
             Engine.Initilise();
 
-            DeBugging.TestArea();
-
             DeBugging.Pause();
         }
     }

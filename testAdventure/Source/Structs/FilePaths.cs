@@ -10,7 +10,7 @@ namespace testAdventure
     {
         public const string Ext = ".txt";
         public const string Areas = @"Data\GameWorld\Areas\";
-        public const string Items = @"Data\items\";
+        public const string Items = @"Data\GameWorld\Items\";
 
         public const string Actions = @"Data\commands\actions\";
         public const string Objects = @"Data\commands\objects\";

@@ -46,11 +46,18 @@
     <Compile Include="Source\CommandProcessing\UserInput.cs" />
     <Compile Include="Source\DataReader\DataReader.cs" />
     <Compile Include="Source\DataReader\GameWorld\AreaData.cs" />
+    <Compile Include="Source\DataReader\GameWorld\ExitData.cs" />
+    <Compile Include="Source\DataReader\GameWorld\ItemData.cs" />
     <Compile Include="Source\DataReader\ReadRawData\CatagorieTxT.cs" />
-    <Compile Include="Source\DataReader\ReadRawData\readBrackets.cs" />
+    <Compile Include="Source\DataReader\ReadRawData\readBracketCount.cs" />
+    <Compile Include="Source\DataReader\ReadRawData\readCinematic.cs" />
+    <Compile Include="Source\DataReader\ReadRawData\readExits.cs" />
+    <Compile Include="Source\DataReader\ReadRawData\readItems.cs" />
+    <Compile Include="Source\DataReader\ReadRawData\readNounList.cs" />
     <Compile Include="Source\DataReader\ReadRawData\readUniqueBrackets.cs" />
     <Compile Include="Source\DataReader\ReadRawData\readDataFile.cs" />
     <Compile Include="Source\DataReader\ReadRawData\readLine.cs" />
+    <Compile Include="Source\DataReader\ReadRawData\readVerbList.cs" />
     <Compile Include="Source\Engine\Engine.cs" />
     <Compile Include="Source\Engine\GameState.cs" />
     <Compile Include="Source\Engine\Player.cs" />
@@ -67,6 +74,8 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <Folder Include="Source\CommandProcessing\WordLists\" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

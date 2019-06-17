@@ -20,19 +20,20 @@ namespace testAdventure
             }
             return null;
         }
-    }
-}
-/*
-        public static string Read_RawSingleLine(string uniqueKeyword, List<string> fileData)
+
+        public static string Get(string uniqueKeyword, List<string> fileData, int start, int end)
         {
-            for (int i = 0; i < fileData.Count; i++)
+            start = start + 1;
+            for (int i = start; i < end; i++)
             {
                 if (fileData[i].StartsWith(uniqueKeyword))
                 {
-                    string foundLine = cleanCatagorieTxT(fileData[i], uniqueKeyword);
+                    string foundLine = CatagorieTxT.Cleaned(fileData[i], uniqueKeyword);
                     return foundLine;
                 }
             }
             return null;
         }
- * */
+
+    }
+}

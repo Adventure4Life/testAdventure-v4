@@ -27,7 +27,6 @@ namespace testAdventure
             {
                 data.Add(fileData[i].Trim());
             }
-
             return data;
         }
     }

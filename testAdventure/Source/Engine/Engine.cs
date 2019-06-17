@@ -13,7 +13,7 @@ namespace testAdventure
             Player.Initilise();
             Level.InitiliseLevel();
             //CommandDictonary.InitialiseDefautls();
-            //Console.SetWindowSize(150, 40); // Default Size = 120 : 30
+            Console.SetWindowSize(150, 40); // Default Size = 120 : 30
         }
     }
 }

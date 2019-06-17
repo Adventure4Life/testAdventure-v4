@@ -9,25 +9,60 @@ namespace testAdventure
     static class DeBugging
     {
 
+        public static void TestExitsInArea()
+        {
+            foreach (Exit exit in Player.Location().exitsList)
+            {
+                Print(exit.name);
+                Print(exit.direction);
+                Print(exit.avaliable);
+                Print(exit.open);
+                Print(exit.look);
+                Print(exit.move);
+            }
+        }
+
+
+        public static void TestItemsInArea()
+        {
+            foreach (Item item in Player.Location().itemsList)
+            {
+                Print(item.name);
+                Print(item.AllowGet);
+                Print(item.lookText);
+                Print(item.getText);
+                Print(item.LoadList_Nouns);
+                Print(item.LoadList_Verbs);
+            }
+        }
+
         public static void TestArea()
         {
-            print(Player.Location().areaName);
-            print(Player.Location().areaLook);
-            print(Player.Location().cinimatic.Count, "Cinematic");
+            Print(Player.Location().areaName);
+            Print(Player.Location().areaLook);
+            Print(Player.Location().cinimatic.Count, "Cinematic");
             //print(Player.Location().cinimatic);
         }
 
-        public static void print(string line)
+        public static void Print(bool TF)
+        {
+            string line = "False";
+            if (TF)
+                line = "True";
+            Console.WriteLine(line + "\n");
+        }
+
+        public static void Print(string line)
         {
             Console.WriteLine(line + "\n");
         }
 
-        public static void print(int num, string title)
+        public static void Print(int num, string title)
         {
             Console.WriteLine(title + " Total Lines = " + num + "\n");
         }
 
-        public static void print(List<string> list)
+        public static void Print(List<string> list)
         {
             foreach (string line in list)
             {
