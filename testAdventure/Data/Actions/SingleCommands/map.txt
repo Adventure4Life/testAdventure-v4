@@ -1,0 +1,10 @@
+//--BASE: map
+
+//Synonyms-START
+chart
+plan
+level
+areas
+blueprints
+guide
+//Synonyms-END

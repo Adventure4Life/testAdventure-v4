@@ -1,0 +1,8 @@
+//--BASE: west
+
+//Synonyms-START
+westward
+westwardly
+w
+left
+//Synonyms-END

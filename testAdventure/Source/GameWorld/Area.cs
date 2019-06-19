@@ -27,5 +27,10 @@ namespace testAdventure
             itemsList = new List<Item>();
             exitsList = new List<Exit>();
         }
+
+        public void setEntered()
+        {
+            hasBeenEntered = true;
+        }
     }
 }

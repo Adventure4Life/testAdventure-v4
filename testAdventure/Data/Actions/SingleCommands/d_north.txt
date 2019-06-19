@@ -1,0 +1,9 @@
+//--BASE: north
+
+//Synonyms-START
+northward
+northwardly
+n
+forward
+up
+//Synonyms-END

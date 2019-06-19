@@ -11,7 +11,7 @@ namespace testAdventure
         //Public Variable
         public static Area[,] GameWorld { get; set; } = new Area[3, 3];
 
-        public static void InitiliseLevel()
+        public static void Initilise()
         {
             DataReader ReadData = new DataReader();
             // Player Start

@@ -1,0 +1,10 @@
+//--BASE: south
+
+//Synonyms-START
+southward
+southwardly
+s
+backward
+back
+down
+//Synonyms-END

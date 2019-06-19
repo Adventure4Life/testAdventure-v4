@@ -1,0 +1,17 @@
+//--Base: close
+
+//Synonyms-START
+shut
+slam
+fasten
+secure
+lock
+block
+plug
+seal
+cork
+fill
+pack
+clog
+obstruct
+//Synonyms-END

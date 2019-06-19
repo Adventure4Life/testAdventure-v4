@@ -1,0 +1,8 @@
+//--BASE: east
+
+//Synonyms-START
+eastward
+eastwardly
+e
+right
+//Synonyms-END

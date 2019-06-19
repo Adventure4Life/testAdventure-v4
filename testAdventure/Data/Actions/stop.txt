@@ -1,0 +1,22 @@
+//--Base: stop
+
+//Synonyms-START
+belay
+cease
+cessation
+deactivate
+discontinuance
+discontinuation
+discontinue
+end
+ending
+finish
+halt
+lapse
+shutdown
+shutoff
+stoppage
+surcease
+terminate
+termination
+//Synonyms-END

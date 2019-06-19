@@ -1,0 +1,6 @@
+//--BASE: exit
+
+//Synonyms-START
+quit
+exit
+//Synonyms-END

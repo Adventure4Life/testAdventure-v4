@@ -44,6 +44,19 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Source\CommandProcessing\UserInput.cs" />
+    <Compile Include="Source\CommandProcessing\WordLists\CommandDictonary.cs" />
+    <Compile Include="Source\CommandProcessing\WordLists\readActionList.cs" />
+    <Compile Include="Source\CommandProcessing\WordLists\readDynamicWords.cs" />
+    <Compile Include="Source\CommandProcessing\WordLists\readFileList.cs" />
+    <Compile Include="Source\CommandProcessing\WordLists\readListOfFiles.cs" />
+    <Compile Include="Source\CommandProcessing\WordLists\Safe.cs" />
+    <Compile Include="Source\ConsoleUtilities\FrameBuffer.cs" />
+    <Compile Include="Source\ConsoleUtilities\PorterStem\EnglishPorter2Stemmer.cs" />
+    <Compile Include="Source\ConsoleUtilities\PorterStem\IPorter2Stemmer.cs" />
+    <Compile Include="Source\ConsoleUtilities\PorterStem\IStemmer.cs" />
+    <Compile Include="Source\ConsoleUtilities\PorterStem\StemmedWord.cs" />
+    <Compile Include="Source\ConsoleUtilities\PrintBuffer.cs" />
+    <Compile Include="Source\ConsoleUtilities\TextUtils.cs" />
     <Compile Include="Source\DataReader\DataReader.cs" />
     <Compile Include="Source\DataReader\GameWorld\AreaData.cs" />
     <Compile Include="Source\DataReader\GameWorld\ExitData.cs" />
@@ -58,6 +71,7 @@
     <Compile Include="Source\DataReader\ReadRawData\readDataFile.cs" />
     <Compile Include="Source\DataReader\ReadRawData\readLine.cs" />
     <Compile Include="Source\DataReader\ReadRawData\readVerbList.cs" />
+    <Compile Include="Source\Engine\AreaUtilities.cs" />
     <Compile Include="Source\Engine\Engine.cs" />
     <Compile Include="Source\Engine\GameState.cs" />
     <Compile Include="Source\Engine\Player.cs" />
@@ -67,6 +81,7 @@
     <Compile Include="Source\GameWorld\Level.cs" />
     <Compile Include="Source\Structs\BracketCounts.cs" />
     <Compile Include="Source\Structs\FilePaths.cs" />
+    <Compile Include="Source\Structs\GoodByeScreen.cs" />
     <Compile Include="testAdventure.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="_Debug\DeBugging.cs" />
@@ -74,8 +89,6 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="Source\CommandProcessing\WordLists\" />
-  </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

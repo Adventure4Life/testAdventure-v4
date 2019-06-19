@@ -16,9 +16,10 @@ Only now do you realise that the noise is more than a quiet. It is the absence o
 
 //LIST_OF_ITEMS_IN_AREA--START
 SilverBall
+RedBox
 //LIST_OF_ITEMS_IN_AREA--END
 
-RedBox
+
 EyeBall
 
 //-EXIT_START

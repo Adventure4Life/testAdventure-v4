@@ -44,6 +44,14 @@ namespace testAdventure
             //print(Player.Location().cinimatic);
         }
 
+        public static void Print (Dictionary<string,string> dic)
+        {
+            foreach (KeyValuePair<string, string> item in dic)
+            {
+                Console.WriteLine("{0} : {1}", item.Key, item.Value);
+            }
+        }
+
         public static void Print(bool TF)
         {
             string line = "False";

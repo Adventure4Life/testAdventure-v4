@@ -1,0 +1,25 @@
+//--Base: open
+
+//Synonyms-START
+expose
+free
+reveal
+unbar
+unblocked
+unbolt
+unbuckle
+unbutton
+unclogged
+uncover
+unfasten
+unfasten
+unlaced
+unlatch
+unlock
+unobstruct
+unseal
+unsecured
+untie
+unwrap
+unzipped
+//Synonyms-END

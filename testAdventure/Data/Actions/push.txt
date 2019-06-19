@@ -1,0 +1,19 @@
+//--Base: push
+
+//Synonyms-START
+bump
+butt
+force
+hit
+jolt
+jostle
+knock
+manhandle
+nudge
+poke
+press
+prod
+ram
+shove
+thrust
+//Synonyms-END
