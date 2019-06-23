@@ -23,5 +23,10 @@ namespace testAdventure
         {
             return Level.GameWorld[Player.PosX, Player.PosY];
         }
+
+        public static void Move(string direction)
+        {
+            PlayerMove.Process(direction);
+        }
     }
 }

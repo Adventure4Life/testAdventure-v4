@@ -80,5 +80,16 @@ namespace testAdventure
             breakLoop = false;
             UserInput.ClearInput();
         }
+        static public void PrintType(string s)
+        {
+            PrintTyperWritter(TextUtils.WordWrap(s));
+            foreach (var line in FrameBuffer.type)
+            {
+                PrintTyperWritter(TextUtils.WordWrap(line));
+                //PrintTyperwritter(line);
+            }
+            breakLoop = false;
+            UserInput.ClearInput();
+        }
     }
 }

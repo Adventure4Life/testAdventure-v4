@@ -20,14 +20,12 @@ RedBox
 //LIST_OF_ITEMS_IN_AREA--END
 
 
-EyeBall
-
 //-EXIT_START
 --NAME: North Exit
 --DIRECTION: north
 
 --AVAILABLE: true
---IS_OPEN: flase
+--IS_OPEN: true
 
 --LOOK_AT_EXIT: You can not see far ahead of you. Just a black emptiness behind the illuminated platform beneath you. You have no idea what is beyond the patch of light in which you stand.
 --Move_Through_Exit: You try moving forward but even though you feel as if you are moving, you can not perceive any changes in your surroundings. It is as if you are walking on a treadmill.
@@ -38,7 +36,7 @@ EyeBall
 --DIRECTION: south
 
 --AVAILABLE: true
---IS_OPEN: false
+--IS_OPEN: true
 
 --LOOK_AT_EXIT: Behind you is more of the endless nothing. The repressive blackness fills you with a quiet dread. Swallowing hard you muster all your fortitude in the hopes of preventing a swelling panic attack.
 --Move_Through_Exit: You turn around to walk behind you but as soon as you are facing away from the sphere and the box you are suddenly are to be facing them again. The transition is instant, there is no perception of movement or discontinuity. You are just facing away, and then in a blink, you are facing the Sphere and the Cube again as if you had not moved at all.
@@ -49,7 +47,7 @@ EyeBall
 --DIRECTION: east
 
 --AVAILABLE: true
---IS_OPEN: false
+--IS_OPEN: true
 
 --LOOK_AT_EXIT: Impenetrable blackness resides beyond the illuminated platform on which you stand. There is no way of knowing what is beyond the light.
 --Move_Through_Exit: Trying to move to your right is folly. You seem to be able to turn and look, but as soon as you step in that direction you snap back to where you were, facing the cube and the sphere. The effect is instant in the blink of an eye and you can not feel anything. You are just suddenly facing the sphere and cube again as if you had never moved at all.

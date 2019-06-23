@@ -1,7 +1,7 @@
 //--ITEM_NAME: Silver Ball
 //--ITEM_CAN_BE_PICKED_UP: false
 
-//--LOOK_DESCRIPTION: <room descritpion default (ball)>
+//--LOOK_DESCRIPTION: <Item Description (ball)>
 
 //--GET_ITEM: <get failed text (ball)>
 
@@ -10,8 +10,6 @@ ball
 //--NOUN-END
 
 //--VERB-START
-look
-get
 push
 kick
 //--VERB-END

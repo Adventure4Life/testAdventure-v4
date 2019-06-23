@@ -1,4 +1,4 @@
-//--Base: stop
+//--BASE: stop
 
 //Synonyms-START
 belay

@@ -1,0 +1,56 @@
+//--AREA_NAME: <Area 1,2>
+
+//--AREA_LOOK: <Look Area 1,2>
+
+//--AREA_CINAMATIC_START:
+<Cinimatic 1,2 - This should only play on your firrst time entering the room.>
+//--AREA_CINAMATIC_END:
+
+//LIST_OF_ITEMS_IN_AREA--START
+SilverBall
+RedBox
+//LIST_OF_ITEMS_IN_AREA--END
+
+//-EXIT_START
+--NAME: North Exit
+--DIRECTION: north
+
+--AVAILABLE: true
+--IS_OPEN: true
+
+--LOOK_AT_EXIT: look exit : North
+--Move_Through_Exit: Attempt Move exit : North
+//-EXIT_END
+
+//-EXIT_START
+--NAME: South Exit
+--DIRECTION: south
+
+--AVAILABLE: true
+--IS_OPEN: true
+
+--LOOK_AT_EXIT: look exit : South
+--Move_Through_Exit: Attempt Move exit : South
+//-EXIT_END
+
+//-EXIT_START
+--NAME: East Exit
+--DIRECTION: east
+
+--AVAILABLE: false
+--IS_OPEN: false
+
+--LOOK_AT_EXIT: look exit : East (Missing)
+--Move_Through_Exit: Attempt Move exit : East (Failed)
+//-EXIT_END
+
+//-EXIT_START
+--NAME: West Exit
+--DIRECTION: west
+
+--AVAILABLE: false
+--IS_OPEN: false
+
+--LOOK_AT_EXIT: look exit : West (Missing)
+--Move_Through_Exit: Attempt Move exit : West (Failed)
+//-EXIT_END

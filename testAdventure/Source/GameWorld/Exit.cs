@@ -16,5 +16,7 @@ namespace testAdventure
 
         public string look { get; set; } = "";
         public string move { get; set; } = "";
+
+        public bool used { get; set; } = false;
     }
 }

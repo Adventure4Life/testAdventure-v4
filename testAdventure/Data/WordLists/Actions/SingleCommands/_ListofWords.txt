@@ -1,12 +1,13 @@
 //--List: Single Commands
 
 //List-START
-d_east
-d_north
-d_south
-d_west
+area
+east
+north
+south
+west
 exit
+gamequit
 inventory
 map
-look
 //List-END

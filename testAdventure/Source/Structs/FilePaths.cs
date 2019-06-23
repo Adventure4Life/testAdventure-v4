@@ -12,8 +12,11 @@ namespace testAdventure
         public const string Areas = @"Data\GameWorld\Areas\";
         public const string Items = @"Data\GameWorld\Items\";
 
-        public const string Actions = @"Data\Actions\";
-        public const string ActionConstants = @"Data\Actions\Constants\";
-        public const string ActionSingles = @"Data\Actions\SingleCommands\";
+        public const string Actions = @"Data\WordLists\Actions\";
+        public const string ActionConstants = @"Data\WordLists\Actions\Constants\";
+        public const string ActionSingles = @"Data\WordLists\Actions\SingleCommands\";
+
+        public const string Objects = @"Data\WordLists\Objects\";
+        public const string Special = @"Data\WordLists\Objects\Special\";
     }
 }

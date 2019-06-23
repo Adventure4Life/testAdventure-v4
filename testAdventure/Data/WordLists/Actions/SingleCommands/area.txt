@@ -1,0 +1,26 @@
+//--BASE: area
+
+//Synonyms-START
+about
+around
+chamber
+domain
+everywhere
+locale
+locality
+location
+locus
+place
+position
+region
+room
+section
+site
+site
+space
+space
+spot
+spot
+vicinity
+zone
+//Synonyms-END

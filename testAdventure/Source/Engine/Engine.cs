@@ -14,6 +14,7 @@ namespace testAdventure
             Level.Initilise();
             CommandDictonary.Initialise();
             Console.SetWindowSize(150, 40); // Default Size = 120 : 30
+            DynamicWordLists.Build();
         }
 
         public static void StartScreen()
@@ -27,8 +28,8 @@ namespace testAdventure
         public static void PlayGame()
         {
             AreaUtilities.ActivateArea(Player.Location());
-            //Console.Write("\n> ");
-            Console.Write("> ");
+            Console.Write("\n> ");
+            //Console.Write("> ");
             UserInput.GetInput(Console.ReadLine());
         }
 

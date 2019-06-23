@@ -35,6 +35,12 @@ namespace testAdventure
                     a.Add(b);
         }
 
+        public static void AddNoBlanks(List<string> a, string b)
+        {
+            if (b != "")
+                a.Add(b);
+        }
+
         public static void AddRange<T, S>(this Dictionary<T, S> target, Dictionary<T, S> copyThis)
         {
             foreach (var item in copyThis)

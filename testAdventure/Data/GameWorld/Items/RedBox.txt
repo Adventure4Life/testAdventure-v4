@@ -1,17 +1,15 @@
 //--ITEM_NAME: RedBox
 //--ITEM_CAN_BE_PICKED_UP: false
 
-//--ROOM_DESCRIPTION_DEFAULT: <room descritpion default>
+//--LOOK_DESCRIPTION: <Item Description default (box)>
 
-//--GET_ITEM_FAILED: <get failed text>
+//--GET_ITEM: <get failed text (box)>
 
 //--NOUN-START
 box
 //--NOUN-END
 
 //--VERB-START
-look
-get
 push
 kick
 //--VERB-END

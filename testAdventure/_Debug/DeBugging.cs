@@ -44,6 +44,11 @@ namespace testAdventure
             //print(Player.Location().cinimatic);
         }
 
+        public static void Print(int v)
+        {
+            Console.WriteLine(v);
+        }
+
         public static void Print (Dictionary<string,string> dic)
         {
             foreach (KeyValuePair<string, string> item in dic)
@@ -68,6 +73,12 @@ namespace testAdventure
         public static void Print(int num, string title)
         {
             Console.WriteLine(title + " Total Lines = " + num + "\n");
+        }
+
+        public static void Print(string[] lines)
+        {
+            foreach (string line in lines)
+                Console.WriteLine(line);
         }
 
         public static void Print(List<string> list)

@@ -51,7 +51,7 @@ namespace testAdventure
             //Safe.Remove(LoadList, CommandDictonary.List_ActionConstant());
             //Safe.Remove(LoadList, CommandDictonary.List_ActionSingle());
 
-            returnData = readListOfFiles.Get(FilePaths.Actions, LoadList);
+            returnData = readListOfFiles.Get(FilePaths.Objects, LoadList);
             return returnData;
         }
     }

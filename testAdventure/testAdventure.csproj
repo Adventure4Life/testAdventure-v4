@@ -43,6 +43,16 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Source\Actions\ConstantActions\LookAction.cs" />
+    <Compile Include="Source\CommandProcessing\CmdProcessing\ActiveKeyWords.cs" />
+    <Compile Include="Source\CommandProcessing\CmdProcessing\CMDsMultiple.cs" />
+    <Compile Include="Source\CommandProcessing\CmdProcessing\CMDsSingle.cs" />
+    <Compile Include="Source\CommandProcessing\CmdProcessing\MatchSynonym.cs" />
+    <Compile Include="Source\CommandProcessing\DynamicWordLists.cs" />
+    <Compile Include="Source\Actions\actionSimple.cs" />
+    <Compile Include="Source\Actions\ConstantActions\MoveAction.cs" />
+    <Compile Include="Source\Actions\PlayerActions\PlayerMove.cs" />
+    <Compile Include="Source\CommandProcessing\ProcessCommands.cs" />
     <Compile Include="Source\CommandProcessing\UserInput.cs" />
     <Compile Include="Source\CommandProcessing\WordLists\CommandDictonary.cs" />
     <Compile Include="Source\CommandProcessing\WordLists\readActionList.cs" />
@@ -56,6 +66,7 @@
     <Compile Include="Source\ConsoleUtilities\PorterStem\IStemmer.cs" />
     <Compile Include="Source\ConsoleUtilities\PorterStem\StemmedWord.cs" />
     <Compile Include="Source\ConsoleUtilities\PrintBuffer.cs" />
+    <Compile Include="Source\ConsoleUtilities\PrintFunctions\PrintLook.cs" />
     <Compile Include="Source\ConsoleUtilities\TextUtils.cs" />
     <Compile Include="Source\DataReader\DataReader.cs" />
     <Compile Include="Source\DataReader\GameWorld\AreaData.cs" />
@@ -80,6 +91,7 @@
     <Compile Include="Source\GameWorld\Item.cs" />
     <Compile Include="Source\GameWorld\Level.cs" />
     <Compile Include="Source\Structs\BracketCounts.cs" />
+    <Compile Include="Source\Structs\Directions.cs" />
     <Compile Include="Source\Structs\FilePaths.cs" />
     <Compile Include="Source\Structs\GoodByeScreen.cs" />
     <Compile Include="testAdventure.cs" />

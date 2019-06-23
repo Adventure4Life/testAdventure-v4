@@ -1,6 +1,5 @@
-//--BASE: exit
+//--BASE: exitgame
 
 //Synonyms-START
-quit
-exit
+exitgame
 //Synonyms-END

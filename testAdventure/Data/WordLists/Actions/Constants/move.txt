@@ -1,4 +1,4 @@
-//--Base: move
+//--BASE: move
 
 //Synonyms-START
 advance
@@ -13,6 +13,7 @@ footslog
 gallop
 go
 hasten
+head
 hike
 hurry
 hurtle
@@ -21,9 +22,7 @@ jogtrot
 journey
 march
 migrate
-move
 patrol
-peregrination
 plod
 pound
 proceed
@@ -39,11 +38,8 @@ scamper
 scurry
 scuttle
 sprint
-streak
 stride
 stroll
-sweep
-traipse
 tramp
 travel
 traversal

@@ -1,4 +1,4 @@
-//--Base: close
+//--BASE: close
 
 //Synonyms-START
 shut

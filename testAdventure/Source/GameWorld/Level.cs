@@ -16,6 +16,19 @@ namespace testAdventure
             DataReader ReadData = new DataReader();
             // Player Start
             GameWorld[Player.PosX, Player.PosY] = ReadData.ImportAreaData("(1,1)_testroom_startroom");
+
+            // Populate Map
+            GameWorld[0, 0] = ReadData.ImportAreaData("(0,0)_testroom");
+            GameWorld[0, 1] = ReadData.ImportAreaData("(0,1)_testroom");
+            GameWorld[0, 2] = ReadData.ImportAreaData("(0,2)_testroom");
+
+            GameWorld[1, 0] = ReadData.ImportAreaData("(1,0)_testroom");
+
+            GameWorld[1, 2] = ReadData.ImportAreaData("(1,2)_testroom");
+
+            GameWorld[2, 0] = ReadData.ImportAreaData("(2,0)_testroom");
+            GameWorld[2, 1] = ReadData.ImportAreaData("(2,1)_testroom");
+            GameWorld[2, 2] = ReadData.ImportAreaData("(2,2)_testroom");
         }
     }
 }

@@ -60,7 +60,19 @@ namespace testAdventure
         public static void AddLine_typeWrite(string line)
         { type.Add(line); }
 
-        public static void AddLine_Blank()
+        public static void AddLine_BlankType()
         { type.Add(""); }
+
+        public static void SetType (string str)
+        {
+            List<string> line = new List<string> { str };
+            FrameBuffer.type = line;
+        }
+
+        public static void SetFrame(string str)
+        {
+            List<string> line = new List<string> { str };
+            FrameBuffer.frame = line;
+        }
     }
 }

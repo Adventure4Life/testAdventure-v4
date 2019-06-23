@@ -18,7 +18,7 @@ namespace testAdventure
                 Engine.PlayGame();
             }
 
-            //Engine.GoodByeScreen();
+            Engine.GoodByeScreen();
         }
     }
 }

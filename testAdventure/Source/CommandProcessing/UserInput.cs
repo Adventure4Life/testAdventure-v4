@@ -36,8 +36,8 @@ namespace testAdventure
             */
             #endregion
 
-            //ProcessCommands CmdProcessor = new ProcessCommands();
-            //CmdProcessor.ProcessInputData();
+            ProcessCommands CmdProcessor = new ProcessCommands();
+            CmdProcessor.ProcessInputData();
         }
 
         public static void AnyKeyContinue()
